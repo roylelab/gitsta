@@ -13,17 +13,14 @@
             }
             ?>
 
-            <i class="fa fa-folder-open" style="margin-left: 20px;"></i> 
+            <i class="fa fa-user" style="margin-left: 20px;"></i>
             <?php
-            echo get_the_category_list(', ');
+            echo get_the_author(', ');
             ?>
 
+            <i class="fa fa-folder-open" style="margin-left: 20px;"></i>
             <?php
-            if(comments_open()):
-            ?>
-            <i class="fa fa-comments" style="margin-left: 20px;"></i> <a href="<?php the_permalink(); ?>#comments"><?php comments_number('No comments', '1 comment', '% comments'); ?></a>
-            <?php
-            endif;
+            echo get_the_category_list(', ');
             ?>
 
             <?php
@@ -36,7 +33,7 @@
         if(has_post_thumbnail()) {
             the_post_thumbnail();
         }
-        
+
         the_content(); ?>
     </div>
 </div>
