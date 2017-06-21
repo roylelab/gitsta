@@ -92,7 +92,7 @@ add_action('after_setup_theme', function() {
     */
 	add_filter( 'default_content', 'my_editor_content' );
 	function my_editor_content( $content ) {
-	$content = "<h3>Aim</h3><p>Why were you doing this experiment?</p><br><h3>Methods</h3><p>What did you do?</p><br><h3>Results</h3><p>What happened?</p><br><h3>Thoughts</h3><p>What does it mean?</p>";
+	$content = "<strong>Background</strong><p>[Optional] What happened before?</p><br><strong>Aim</strong><p>What did you want to test?</p><br><strong>Methods</strong><p>What did you do?</p><br><strong>Results</strong><p>What happened?</p><br><strong>Conclusion</strong><p>What did you find out? What does it mean?</p>";
 	return $content;
 	}
     // CSS Style for reply link
@@ -296,4 +296,3 @@ $wp_admin_bar->add_menu( array(
 
 }
 }
-
