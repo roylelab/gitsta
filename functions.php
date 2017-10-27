@@ -92,7 +92,7 @@ add_action('after_setup_theme', function() {
     */
 	add_filter( 'default_content', 'my_editor_content' );
 	function my_editor_content( $content ) {
-	$content = "<h3>Background</h3><p>[Optional] What happened before?</p><br><h3>Aim</h3><p>What did you want to test?</p><br><h3>Methods</h3><p>What did you do?</p><br><h3>Results</h3><p>What happened?</p><br><h3>Conclusion</h3><p>What did you find out? What does it mean?</p>";
+	$content = "<h2>Background</h2><p>[Optional] What happened before?</p><br><h2>Aim</h2><p>What did you want to test?</p><br><h2>Methods</h2><p>What did you do?</p><br><h2>Results</h2><p>What happened?</p><br><h2>Conclusion</h2><p>What did you find out? What does it mean?</p>";
 	return $content;
 	}
     // CSS Style for reply link
