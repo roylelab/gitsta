@@ -1,52 +1,19 @@
-gitsta
+ELNgitsta
 ======
 
-> **This theme is no longer maintained. See [here](https://nehalist.io/not-maintaining-my-wordpress-theme-gitsta-anymore/).**
+> **gitsta theme is no longer maintained. See [here](https://nehalist.io/not-maintaining-my-wordpress-theme-gitsta-anymore/).**
 
-Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.
+This is a fork of gitsta that has been repurposed for use in Electronic Lab Notebooks (ELNs). In the Centre for Mechanochemical Cell Biology at Warwick we run a multi-site WordPress install to power ELNs for several research labs. This theme is served up for the ELNs of all labs.
 
-> IMPORTANT: I'm not maintaining this theme anymore. 
+> Now updated to use Gutenberg blocks
+
+For more information on our use of ELNs see the links [below](#links)
 
 ![screenshot](screenshot.png)
 
-### Download
-- [GitHub Releases](https://github.com/nehalist/gitsta/releases)
-- [WordPress.org](https://wordpress.org/themes/gitsta)
+### Links
+* [Deciding on an ELN platform](https://quantixed.org/2017/04/25/the-soft-bulletin-electronic-lab-notebooks/)
+* [Our use of WordPress at gitsta theme + simple install](http://quantixed.org/2017/04/27/notes-to-the-future/)
+* [CAMDU blog on our multi-site setup](https://blogs.warwick.ac.uk/camdu/entry/multi-site_electronic_lab/)
+* [Dave Mason's install instructions](https://postacquisition.wordpress.com/2017/10/17/more-notes-to-the-future/)
 
-### Features
-* Responsive
-* Support for font awesome, octicons, glyphicons
-* Dynamic sidebar (statically positioned if the window height allows it, otherwise non-static)
-* Theme options
-  * Favicon
-  * Comment markdown support
-  * Enable/disable blog description on front page
-  * Customizable error page
-* Neat comments style
-* Neat source code displaying within posts and pages
-* Full-width template
-* Advanced menues (with icons, dividers, ...)
-* Well written and documented source code
-
-### Menu
-The theme menu supports:
-* Icons (Octicons, Glyphicons, Font Awesome)
-* Submenus
-* All features of [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker): Dividers, Dropdown Headers and disabled links
-
-To use the icons just set the "Title Attribute" of the menu item to the desired item (e.g. `fa-code`, `octicon-flame`, etc.).
-
-### Requirements & Recommendation
-* This theme requires at least PHP 5.3, due the usage of closures within the `functions.php`
-* Since this theme was created with markdown in mind, you should use some kind of markdown plugin (I'm pretty satisfied with [WP-Markdown](https://wordpress.org/plugins/wp-markdown/)). If you don't like to use markdown, you can disable the markdown support within the theme settings.
-
-### Like the theme?
-Rate it on [WordPress.org](https://wordpress.org/themes/gitsta) or star it on [GitHub](https://github.com/nehalist/gitsta)! Thanks!
-
-### Credits
-* [Bootstrap](http://www.getbootstrap.com)
-* [GitHub](http://www.github.com)
-* [Marked](https://github.com/chjj/marked)
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-* [TGM Plugin Activation](http://tgmpluginactivation.com/)
-* [wp-bootstrap-navwalker](https://github.com/twittem/wp-bootstrap-navwalker)

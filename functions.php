@@ -98,7 +98,7 @@ add_action('after_setup_theme', function() {
 
 <!-- wp:paragraph -->
 <p>[Optional] What happened before?</p><br>
-<!-- wp:paragraph -->
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
 <h2>Aim</h2>
@@ -106,7 +106,7 @@ add_action('after_setup_theme', function() {
 
 <!-- wp:paragraph -->
 <p>What did you want to test?</p><br>
-<!-- wp:paragraph -->
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
 <h2>Methods</h2>
@@ -114,7 +114,7 @@ add_action('after_setup_theme', function() {
 
 <!-- wp:paragraph -->
 <p>What did you do?</p><br>
-<!-- wp:paragraph -->
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
 <h2>Results</h2>
@@ -122,7 +122,7 @@ add_action('after_setup_theme', function() {
 
 <!-- wp:paragraph -->
 <p>What happened?</p><br>
-<!-- wp:paragraph -->
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
 <h2>Conclusion</h2>
@@ -130,7 +130,7 @@ add_action('after_setup_theme', function() {
 
 <!-- wp:paragraph -->
 <p>What did you find out? What does it mean?</p>
-<!-- wp:paragraph -->';
+<!-- /wp:paragraph -->';
 	return $content;
 	}
     // CSS Style for reply link
