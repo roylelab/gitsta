@@ -92,7 +92,45 @@ add_action('after_setup_theme', function() {
     */
 	add_filter( 'default_content', 'my_editor_content' );
 	function my_editor_content( $content ) {
-	$content = "<h2>Background</h2><p>[Optional] What happened before?</p><br><h2>Aim</h2><p>What did you want to test?</p><br><h2>Methods</h2><p>What did you do?</p><br><h2>Results</h2><p>What happened?</p><br><h2>Conclusion</h2><p>What did you find out? What does it mean?</p>";
+	$content = '<!-- wp:heading {"level":2} -->
+<h2>Background</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>[Optional] What happened before?</p><br>
+<!-- wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2>Aim</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>What did you want to test?</p><br>
+<!-- wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2>Methods</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>What did you do?</p><br>
+<!-- wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2>Results</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>What happened?</p><br>
+<!-- wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2>Conclusion</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>What did you find out? What does it mean?</p>
+<!-- wp:paragraph -->';
 	return $content;
 	}
     // CSS Style for reply link
